@@ -1,26 +1,9 @@
+*{
+  max-width: 100%;
+  box-sizing: border-box;
+}
 body{
     background-color: midnightblue;
-}
-.refresh-btn {
-  background-color: #007bff; /* Blue color */
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
-  transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.refresh-btn:hover {
-  background-color: #0056b3; /* Darker blue on hover */
-  transform: translateY(-2px); /* Slight lift */
-}
-
-.refresh-btn:active {
-  transform: translateY(0); /* Reset on click */
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadow on click */
 }
 
 /* Time.css */
@@ -70,6 +53,29 @@ body{
       width:250px ;
     }
   }
+  /*refresh button*/
+  .refresh-btn {
+    background-color: #007bff; /* Blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .refresh-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift */
+  }
+  
+  .refresh-btn:active {
+    transform: translateY(0); /* Reset on click */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadow on click */
+  }
+  
 /* Balance.css */
 .balance-container {
   background-color: beige;
